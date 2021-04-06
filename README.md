@@ -3,7 +3,7 @@
 Uno Game
 =====
 
-An implementation for the game Uno.
+An implementation for the game Uno. The game can be played by human and AI players.
 
 * Start View:
   ![image](UnoGame/src/screenshots/StartView.png)
