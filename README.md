@@ -6,7 +6,7 @@ Uno Game
 An implementation for the game Uno.
 
 * Start View:
-  ![image](screenshots/StartView.png)
+  ![image](UnoGame/src/screenshots/StartView.png)
   This shows the starting view of the game.
   It displays the Uno logo with an input field for the number of human players, 
   baseline AI, and strategic AI.
