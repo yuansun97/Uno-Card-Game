@@ -12,7 +12,7 @@ Table of Contents
 * [Requirements](#requirements)
 * [Purpose](#purpose)
 * [Usage](#usage)
-* [Game Screenshots] (#Game Screenshots)
+* [Screenshots](#screenshots)
 
 
 Requirements
@@ -46,7 +46,7 @@ Code Style
 
 The project uses Standard Java styling practices with Java doc comments, etc.
 
-Code Examples
+Usage
 -----
 
 ###Method from GameBoard class that initialize players
@@ -91,7 +91,7 @@ Code Examples
 ```
 
 
-Game Screenshots
+Screenshots
 -----
 
 * Start View:
