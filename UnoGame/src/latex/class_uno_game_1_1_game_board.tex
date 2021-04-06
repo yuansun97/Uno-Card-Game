@@ -1,0 +1,175 @@
+\hypertarget{class_uno_game_1_1_game_board}{}\doxysection{Uno\+Game.\+Game\+Board Class Reference}
+\label{class_uno_game_1_1_game_board}\index{UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_uno_game_1_1_game_board_a9ddcad5f54a8269f8e04d04e7a5fd05d}{Game\+Board}} (int \+\_\+num\+Of\+Players)
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_game_board_a4f9ea35f13b48fd56bbfb6974abb2fa5}{penalty\+Draw\+Cards\+Check}} ()
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_game_board_aefc157ab7fd51056d6438eaf7c29f13a}{place\+ACard}} (\mbox{\hyperlink{class_uno_game_1_1_player}{Player}} player, \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} card)
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_game_board_a6c8ed5e1a9289294a628702f7ea2948c}{request\+ACard}} (\mbox{\hyperlink{class_uno_game_1_1_player}{Player}} player)
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_game_board_a9ac24c0cf53104e5893c39e84a802c6d}{game\+Ends}} ()
+\item 
+void \mbox{\hyperlink{class_uno_game_1_1_game_board_a679496e3b86e890a105974dcb514e957}{next\+Player}} ()
+\item 
+void \mbox{\hyperlink{class_uno_game_1_1_game_board_a2b62b4883c758ab21a55d7448e7973f9}{deal\+Cards\+To}} (\mbox{\hyperlink{class_uno_game_1_1_player}{Player}} player, int n)
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a99a8327d578483ca7e9a3800b1763590}\label{class_uno_game_1_1_game_board_a99a8327d578483ca7e9a3800b1763590}} 
+List$<$ \mbox{\hyperlink{class_uno_game_1_1_player}{Player}} $>$ {\bfseries get\+Players} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a8512cd789c3eb6235b32819470f13b26}\label{class_uno_game_1_1_game_board_a8512cd789c3eb6235b32819470f13b26}} 
+int {\bfseries get\+Current\+Player} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a8ca21708b1355b0849d386845ed6b559}\label{class_uno_game_1_1_game_board_a8ca21708b1355b0849d386845ed6b559}} 
+int {\bfseries get\+Turn\+Direction} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_ad9a6fc604b63303d856345f28acc1dfa}\label{class_uno_game_1_1_game_board_ad9a6fc604b63303d856345f28acc1dfa}} 
+int {\bfseries get\+Draw\+Two\+Penalty} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a9db7cf64df7c34d917f0052ca5fc4079}\label{class_uno_game_1_1_game_board_a9db7cf64df7c34d917f0052ca5fc4079}} 
+int {\bfseries get\+Wild\+Draw\+Four\+Penalty} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a36ec20717ad92e6a38ea5c7f058ecb56}\label{class_uno_game_1_1_game_board_a36ec20717ad92e6a38ea5c7f058ecb56}} 
+Map$<$ \mbox{\hyperlink{class_uno_game_1_1_player}{Player}}, List$<$ \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} $>$ $>$ {\bfseries get\+Players\+Cards} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a46d9dbf6d24c60daf28256630ebecbac}\label{class_uno_game_1_1_game_board_a46d9dbf6d24c60daf28256630ebecbac}} 
+List$<$ \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} $>$ {\bfseries get\+Pile} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a41dcf3bbd1bac3d5a53fa91609fb7803}\label{class_uno_game_1_1_game_board_a41dcf3bbd1bac3d5a53fa91609fb7803}} 
+int {\bfseries get\+Num\+Of\+Cards\+In\+Draw\+Pile} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a832c1b0d5efa6696afc4505e56fa49e1}\label{class_uno_game_1_1_game_board_a832c1b0d5efa6696afc4505e56fa49e1}} 
+void {\bfseries set\+Current\+Player} (int p)
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_adeb298bba5e40d002c2e1a06c4ffc73a}\label{class_uno_game_1_1_game_board_adeb298bba5e40d002c2e1a06c4ffc73a}} 
+void {\bfseries set\+Num\+Of\+Cards\+In\+Draw\+Pile} (int set\+Num)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_adbeb6758e7b5b57543511052042e144a}\label{class_uno_game_1_1_game_board_adbeb6758e7b5b57543511052042e144a}} 
+final int {\bfseries NUM\+\_\+\+OF\+\_\+\+TOTAL\+\_\+\+CARDS} = 108
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_abfe9d31d0b0acc5e60887e708a9fac4f}\label{class_uno_game_1_1_game_board_abfe9d31d0b0acc5e60887e708a9fac4f}} 
+final int {\bfseries PLAYER\+\_\+\+INITIAL\+\_\+\+CARDS} = 7
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a95337976f63b7f49d888df7c86da8461}\label{class_uno_game_1_1_game_board_a95337976f63b7f49d888df7c86da8461}} 
+final int {\bfseries NUM\+\_\+\+OF\+\_\+\+PLAYERS}
+\item 
+\mbox{\hyperlink{class_uno_game_1_1_card}{Card}} \mbox{\hyperlink{class_uno_game_1_1_game_board_a502f05a951920116a04ce6ffed8bcacd}{card\+To\+Follow}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class keeps track of the game state and rules. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a9ddcad5f54a8269f8e04d04e7a5fd05d}\label{class_uno_game_1_1_game_board_a9ddcad5f54a8269f8e04d04e7a5fd05d}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!GameBoard@{GameBoard}}
+\index{GameBoard@{GameBoard}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{GameBoard()}{GameBoard()}}
+{\footnotesize\ttfamily Uno\+Game.\+Game\+Board.\+Game\+Board (\begin{DoxyParamCaption}\item[{int}]{\+\_\+num\+Of\+Players }\end{DoxyParamCaption})}
+
+Construct a game with given \#num\+Of\+Players.
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+num\+Of\+Players} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a2b62b4883c758ab21a55d7448e7973f9}\label{class_uno_game_1_1_game_board_a2b62b4883c758ab21a55d7448e7973f9}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!dealCardsTo@{dealCardsTo}}
+\index{dealCardsTo@{dealCardsTo}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{dealCardsTo()}{dealCardsTo()}}
+{\footnotesize\ttfamily void Uno\+Game.\+Game\+Board.\+deal\+Cards\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_uno_game_1_1_player}{Player}}}]{player,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+Deal \#n card to the given \#player.
+
+Randomly pick up a card, assign it to the player, and add it to the players\+Cards map as a record on the server side, repeat n times.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a9ac24c0cf53104e5893c39e84a802c6d}\label{class_uno_game_1_1_game_board_a9ac24c0cf53104e5893c39e84a802c6d}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!gameEnds@{gameEnds}}
+\index{gameEnds@{gameEnds}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{gameEnds()}{gameEnds()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Game\+Board.\+game\+Ends (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Determine whether the game is over. \mbox{\Hypertarget{class_uno_game_1_1_game_board_a679496e3b86e890a105974dcb514e957}\label{class_uno_game_1_1_game_board_a679496e3b86e890a105974dcb514e957}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!nextPlayer@{nextPlayer}}
+\index{nextPlayer@{nextPlayer}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{nextPlayer()}{nextPlayer()}}
+{\footnotesize\ttfamily void Uno\+Game.\+Game\+Board.\+next\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Move to the next player. \mbox{\Hypertarget{class_uno_game_1_1_game_board_a4f9ea35f13b48fd56bbfb6974abb2fa5}\label{class_uno_game_1_1_game_board_a4f9ea35f13b48fd56bbfb6974abb2fa5}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!penaltyDrawCardsCheck@{penaltyDrawCardsCheck}}
+\index{penaltyDrawCardsCheck@{penaltyDrawCardsCheck}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{penaltyDrawCardsCheck()}{penaltyDrawCardsCheck()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Game\+Board.\+penalty\+Draw\+Cards\+Check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Check whether there is a penalty for the current player.
+
+Deal the penalty cards to the current player and clear the penalty, if the current player doesn\textquotesingle{}t have the according action card.
+
+Stack the penalty, otherwise.
+
+\begin{DoxyReturn}{Returns}
+true has penalty false no penalty 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_aefc157ab7fd51056d6438eaf7c29f13a}\label{class_uno_game_1_1_game_board_aefc157ab7fd51056d6438eaf7c29f13a}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!placeACard@{placeACard}}
+\index{placeACard@{placeACard}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{placeACard()}{placeACard()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Game\+Board.\+place\+ACard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_uno_game_1_1_player}{Player}}}]{player,  }\item[{\mbox{\hyperlink{class_uno_game_1_1_card}{Card}}}]{card }\end{DoxyParamCaption})}
+
+Try to place the play made by the player with given card.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & the player intend to play \\
+\hline
+{\em card} & the card intend to be played \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true the play is valid, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a6c8ed5e1a9289294a628702f7ea2948c}\label{class_uno_game_1_1_game_board_a6c8ed5e1a9289294a628702f7ea2948c}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!requestACard@{requestACard}}
+\index{requestACard@{requestACard}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{requestACard()}{requestACard()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Game\+Board.\+request\+ACard (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_uno_game_1_1_player}{Player}}}]{player }\end{DoxyParamCaption})}
+
+\mbox{\hyperlink{class_uno_game_1_1_player}{Player}} request to draw a card from the pile.
+
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if valid, false o.\+w. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_game_board_a502f05a951920116a04ce6ffed8bcacd}\label{class_uno_game_1_1_game_board_a502f05a951920116a04ce6ffed8bcacd}} 
+\index{UnoGame.GameBoard@{UnoGame.GameBoard}!cardToFollow@{cardToFollow}}
+\index{cardToFollow@{cardToFollow}!UnoGame.GameBoard@{UnoGame.GameBoard}}
+\doxysubsubsection{\texorpdfstring{cardToFollow}{cardToFollow}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} Uno\+Game.\+Game\+Board.\+card\+To\+Follow}
+
+Holds the top card on the discard pile. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Uno\+Game/src/\+Uno\+Game/Game\+Board.\+java\end{DoxyCompactItemize}

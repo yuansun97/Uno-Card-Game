@@ -1,0 +1,123 @@
+\hypertarget{class_uno_game_1_1_colored_card}{}\doxysection{Uno\+Game.\+Colored\+Card Class Reference}
+\label{class_uno_game_1_1_colored_card}\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+Inheritance diagram for Uno\+Game.\+Colored\+Card\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_uno_game_1_1_colored_card}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_uno_game_1_1_colored_card_abfc4a95782d75b66b9183a45334a35b5}{Colored\+Card}} (String \+\_\+type, String \+\_\+color)
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_ab3d3180fdac733a5ef35d3bca50d8f1c}\label{class_uno_game_1_1_colored_card_ab3d3180fdac733a5ef35d3bca50d8f1c}} 
+boolean {\bfseries is\+Colored} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_a469fe3d156a1b43acce48abdd1b639a5}\label{class_uno_game_1_1_colored_card_a469fe3d156a1b43acce48abdd1b639a5}} 
+boolean {\bfseries is\+Wild} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_a33ed203c6b994f39d6aa74ca17904679}\label{class_uno_game_1_1_colored_card_a33ed203c6b994f39d6aa74ca17904679}} 
+String {\bfseries get\+Color} ()
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_colored_card_a92bc177db2c0a7ffc59a2b707a0493bc}{is\+Matched\+With}} (\mbox{\hyperlink{class_uno_game_1_1_card}{Card}} other)
+\item 
+void \mbox{\hyperlink{class_uno_game_1_1_colored_card_a27d885110291fb24168ad5d51b25c25a}{switch\+Color}} (String new\+Color)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_uno_game_1_1_colored_card_aed0fb838150351affbea253ba1c5b4bf}{add\+Cards\+To\+Pile}} (List$<$ \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} $>$ pile)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_uno_game_1_1_colored_card_a955f30c46eb8f072536ce4cacbcaf10a}{COLORS}} = \{\char`\"{}Red\char`\"{}, \char`\"{}Yellow\char`\"{}, \char`\"{}Green\char`\"{}, \char`\"{}Blue\char`\"{}\}
+\item 
+static final String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_uno_game_1_1_colored_card_a767a3363754a6f337359e613d8f47c92}{TYPES}}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_uno_game_1_1_colored_card_aa6ca2ee07da6ef31c4dea79165f89502}{COUNT\+\_\+\+OF\+\_\+\+CARDS}} = \{1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2\}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This class represents the colored card, inherited from \mbox{\hyperlink{class_uno_game_1_1_card}{Card}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_abfc4a95782d75b66b9183a45334a35b5}\label{class_uno_game_1_1_colored_card_abfc4a95782d75b66b9183a45334a35b5}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!ColoredCard@{ColoredCard}}
+\index{ColoredCard@{ColoredCard}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{ColoredCard()}{ColoredCard()}}
+{\footnotesize\ttfamily Uno\+Game.\+Colored\+Card.\+Colored\+Card (\begin{DoxyParamCaption}\item[{String}]{\+\_\+type,  }\item[{String}]{\+\_\+color }\end{DoxyParamCaption})}
+
+Construct a colored card with given color and type. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_aed0fb838150351affbea253ba1c5b4bf}\label{class_uno_game_1_1_colored_card_aed0fb838150351affbea253ba1c5b4bf}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!addCardsToPile@{addCardsToPile}}
+\index{addCardsToPile@{addCardsToPile}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{addCardsToPile()}{addCardsToPile()}}
+{\footnotesize\ttfamily static void Uno\+Game.\+Colored\+Card.\+add\+Cards\+To\+Pile (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} $>$}]{pile }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Initialize all the colored cards and add it to the given list.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pile} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_a92bc177db2c0a7ffc59a2b707a0493bc}\label{class_uno_game_1_1_colored_card_a92bc177db2c0a7ffc59a2b707a0493bc}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!isMatchedWith@{isMatchedWith}}
+\index{isMatchedWith@{isMatchedWith}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{isMatchedWith()}{isMatchedWith()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Colored\+Card.\+is\+Matched\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_uno_game_1_1_card}{Card}}}]{other }\end{DoxyParamCaption})}
+
+Return true if this card is matched with the given card, that is, they have either the same color or the same type; false otherwise. 
+
+Reimplemented from \mbox{\hyperlink{class_uno_game_1_1_card}{Uno\+Game.\+Card}}.
+
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_a27d885110291fb24168ad5d51b25c25a}\label{class_uno_game_1_1_colored_card_a27d885110291fb24168ad5d51b25c25a}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!switchColor@{switchColor}}
+\index{switchColor@{switchColor}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{switchColor()}{switchColor()}}
+{\footnotesize\ttfamily void Uno\+Game.\+Colored\+Card.\+switch\+Color (\begin{DoxyParamCaption}\item[{String}]{new\+Color }\end{DoxyParamCaption})}
+
+Switch the card\textquotesingle{}s color to the given new\+Color. 
+
+Reimplemented from \mbox{\hyperlink{class_uno_game_1_1_card}{Uno\+Game.\+Card}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_colored_card_a955f30c46eb8f072536ce4cacbcaf10a}\label{class_uno_game_1_1_colored_card_a955f30c46eb8f072536ce4cacbcaf10a}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!COLORS@{COLORS}}
+\index{COLORS@{COLORS}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{COLORS}{COLORS}}
+{\footnotesize\ttfamily final String \mbox{[}$\,$\mbox{]} Uno\+Game.\+Colored\+Card.\+COLORS = \{\char`\"{}Red\char`\"{}, \char`\"{}Yellow\char`\"{}, \char`\"{}Green\char`\"{}, \char`\"{}Blue\char`\"{}\}\hspace{0.3cm}{\ttfamily [static]}}
+
+Holds all the colors of colored cards. \mbox{\Hypertarget{class_uno_game_1_1_colored_card_aa6ca2ee07da6ef31c4dea79165f89502}\label{class_uno_game_1_1_colored_card_aa6ca2ee07da6ef31c4dea79165f89502}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!COUNT\_OF\_CARDS@{COUNT\_OF\_CARDS}}
+\index{COUNT\_OF\_CARDS@{COUNT\_OF\_CARDS}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{COUNT\_OF\_CARDS}{COUNT\_OF\_CARDS}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]} Uno\+Game.\+Colored\+Card.\+COUNT\+\_\+\+OF\+\_\+\+CARDS = \{1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2\}\hspace{0.3cm}{\ttfamily [static]}}
+
+Holds the number of cards for each Color-\/\+Type. \mbox{\Hypertarget{class_uno_game_1_1_colored_card_a767a3363754a6f337359e613d8f47c92}\label{class_uno_game_1_1_colored_card_a767a3363754a6f337359e613d8f47c92}} 
+\index{UnoGame.ColoredCard@{UnoGame.ColoredCard}!TYPES@{TYPES}}
+\index{TYPES@{TYPES}!UnoGame.ColoredCard@{UnoGame.ColoredCard}}
+\doxysubsubsection{\texorpdfstring{TYPES}{TYPES}}
+{\footnotesize\ttfamily final String \mbox{[}$\,$\mbox{]} Uno\+Game.\+Colored\+Card.\+TYPES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= }
+\DoxyCodeLine{        \{   \textcolor{stringliteral}{"{}0"{}}, \textcolor{stringliteral}{"{}1"{}}, \textcolor{stringliteral}{"{}2"{}}, \textcolor{stringliteral}{"{}3"{}}, \textcolor{stringliteral}{"{}4"{}}, }
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}5"{}}, \textcolor{stringliteral}{"{}6"{}}, \textcolor{stringliteral}{"{}7"{}}, \textcolor{stringliteral}{"{}8"{}}, \textcolor{stringliteral}{"{}9"{}}, }
+\DoxyCodeLine{            \textcolor{stringliteral}{"{}Skip"{}}, \textcolor{stringliteral}{"{}Reverse"{}}, \textcolor{stringliteral}{"{}DrawTwo"{}}\}}
+
+\end{DoxyCode}
+Holds all the types of colored cards. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Uno\+Game/src/\+Uno\+Game/Colored\+Card.\+java\end{DoxyCompactItemize}

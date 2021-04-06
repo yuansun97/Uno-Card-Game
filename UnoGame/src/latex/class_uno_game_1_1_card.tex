@@ -1,0 +1,116 @@
+\hypertarget{class_uno_game_1_1_card}{}\doxysection{Uno\+Game.\+Card Class Reference}
+\label{class_uno_game_1_1_card}\index{UnoGame.Card@{UnoGame.Card}}
+Inheritance diagram for Uno\+Game.\+Card\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_uno_game_1_1_card}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_uno_game_1_1_card_aebc01b1cc68beae8de0e0046d95c8083}{Card}} (String \+\_\+type)
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_card_aba4759314448af686d95a0a31f602ea9}{is\+Functional}} ()
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_card_a0738190b76fa2dfe0512b9268156efec}{equals\+To}} (\mbox{\hyperlink{class_uno_game_1_1_card}{Card}} other)
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_card_a0cb3012b1e6e3bd0c8320b49b2c21bf8}\label{class_uno_game_1_1_card_a0cb3012b1e6e3bd0c8320b49b2c21bf8}} 
+String {\bfseries to\+String} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_card_a6d61253fbe95530d1867ee5c544ad4ad}\label{class_uno_game_1_1_card_a6d61253fbe95530d1867ee5c544ad4ad}} 
+abstract boolean {\bfseries is\+Colored} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_card_ace663f4d5afb44cb7e046c275f9104c1}\label{class_uno_game_1_1_card_ace663f4d5afb44cb7e046c275f9104c1}} 
+abstract boolean {\bfseries is\+Wild} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_card_a2c9ae816bb6f9fa864c8c75e946934a9}\label{class_uno_game_1_1_card_a2c9ae816bb6f9fa864c8c75e946934a9}} 
+abstract String {\bfseries get\+Color} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_card_abb79c69ab549e961683349621aa09c7d}\label{class_uno_game_1_1_card_abb79c69ab549e961683349621aa09c7d}} 
+abstract boolean {\bfseries is\+Matched\+With} (\mbox{\hyperlink{class_uno_game_1_1_card}{Card}} other)
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_card_ac95b745eb382927dcae1d0b897c5f9d0}\label{class_uno_game_1_1_card_ac95b745eb382927dcae1d0b897c5f9d0}} 
+abstract void {\bfseries switch\+Color} (String new\+Color)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{class_uno_game_1_1_card_a23875b65c7c43925d824b7213014c3e0}{type}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final Set$<$ String $>$ \mbox{\hyperlink{class_uno_game_1_1_card_a39a959b8b4eff231e95e0247ba069012}{FUNCTIONAL\+\_\+\+TYPES}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the abstract card. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_card_aebc01b1cc68beae8de0e0046d95c8083}\label{class_uno_game_1_1_card_aebc01b1cc68beae8de0e0046d95c8083}} 
+\index{UnoGame.Card@{UnoGame.Card}!Card@{Card}}
+\index{Card@{Card}!UnoGame.Card@{UnoGame.Card}}
+\doxysubsubsection{\texorpdfstring{Card()}{Card()}}
+{\footnotesize\ttfamily Uno\+Game.\+Card.\+Card (\begin{DoxyParamCaption}\item[{String}]{\+\_\+type }\end{DoxyParamCaption})}
+
+Initialize the card type. 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+type} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_card_a0738190b76fa2dfe0512b9268156efec}\label{class_uno_game_1_1_card_a0738190b76fa2dfe0512b9268156efec}} 
+\index{UnoGame.Card@{UnoGame.Card}!equalsTo@{equalsTo}}
+\index{equalsTo@{equalsTo}!UnoGame.Card@{UnoGame.Card}}
+\doxysubsubsection{\texorpdfstring{equalsTo()}{equalsTo()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Card.\+equals\+To (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_uno_game_1_1_card}{Card}}}]{other }\end{DoxyParamCaption})}
+
+Determine whether the given card is the same to itself.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & card to compare with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true the card has the same color and type/number false o.\+w. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_uno_game_1_1_card_aba4759314448af686d95a0a31f602ea9}\label{class_uno_game_1_1_card_aba4759314448af686d95a0a31f602ea9}} 
+\index{UnoGame.Card@{UnoGame.Card}!isFunctional@{isFunctional}}
+\index{isFunctional@{isFunctional}!UnoGame.Card@{UnoGame.Card}}
+\doxysubsubsection{\texorpdfstring{isFunctional()}{isFunctional()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Card.\+is\+Functional (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+true, if this card is one of the functional type, false, if this card is a numbered card. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_card_a39a959b8b4eff231e95e0247ba069012}\label{class_uno_game_1_1_card_a39a959b8b4eff231e95e0247ba069012}} 
+\index{UnoGame.Card@{UnoGame.Card}!FUNCTIONAL\_TYPES@{FUNCTIONAL\_TYPES}}
+\index{FUNCTIONAL\_TYPES@{FUNCTIONAL\_TYPES}!UnoGame.Card@{UnoGame.Card}}
+\doxysubsubsection{\texorpdfstring{FUNCTIONAL\_TYPES}{FUNCTIONAL\_TYPES}}
+{\footnotesize\ttfamily final Set$<$String$>$ Uno\+Game.\+Card.\+FUNCTIONAL\+\_\+\+TYPES\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} HashSet<>(}
+\DoxyCodeLine{            Arrays.asList(\textcolor{stringliteral}{"{}Skip"{}}, \textcolor{stringliteral}{"{}Reverse"{}}, \textcolor{stringliteral}{"{}DrawTwo"{}}, \textcolor{stringliteral}{"{}Wild"{}}, \textcolor{stringliteral}{"{}WildDrawFour"{}}))}
+
+\end{DoxyCode}
+Holds all the functional cards\textquotesingle{} types (non-\/numbered cards). \mbox{\Hypertarget{class_uno_game_1_1_card_a23875b65c7c43925d824b7213014c3e0}\label{class_uno_game_1_1_card_a23875b65c7c43925d824b7213014c3e0}} 
+\index{UnoGame.Card@{UnoGame.Card}!type@{type}}
+\index{type@{type}!UnoGame.Card@{UnoGame.Card}}
+\doxysubsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily String Uno\+Game.\+Card.\+type}
+
+Holds the type of the card. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Uno\+Game/src/\+Uno\+Game/Card.\+java\end{DoxyCompactItemize}

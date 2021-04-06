@@ -1,0 +1,107 @@
+\hypertarget{class_uno_game_1_1_wild_card}{}\doxysection{Uno\+Game.\+Wild\+Card Class Reference}
+\label{class_uno_game_1_1_wild_card}\index{UnoGame.WildCard@{UnoGame.WildCard}}
+Inheritance diagram for Uno\+Game.\+Wild\+Card\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_uno_game_1_1_wild_card}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_uno_game_1_1_wild_card_ad14413c3d333c323df4aaef34c0b6860}{Wild\+Card}} (String \+\_\+type)
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_aae18d6f45adbc455f064b5bcd8d35c76}\label{class_uno_game_1_1_wild_card_aae18d6f45adbc455f064b5bcd8d35c76}} 
+boolean {\bfseries is\+Colored} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_ad5db6d29d95e056ade1d089ff0ae3663}\label{class_uno_game_1_1_wild_card_ad5db6d29d95e056ade1d089ff0ae3663}} 
+boolean {\bfseries is\+Wild} ()
+\item 
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_add10783ff7d3c30b31a1d1cfe0930e2f}\label{class_uno_game_1_1_wild_card_add10783ff7d3c30b31a1d1cfe0930e2f}} 
+String {\bfseries get\+Color} ()
+\item 
+boolean \mbox{\hyperlink{class_uno_game_1_1_wild_card_adcf775c9e863786920c0c04158ba977f}{is\+Matched\+With}} (\mbox{\hyperlink{class_uno_game_1_1_card}{Card}} other)
+\item 
+void \mbox{\hyperlink{class_uno_game_1_1_wild_card_acfe36b3a0e3f29a8b1a5ab6d8c4e061b}{switch\+Color}} (String new\+Color)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_uno_game_1_1_wild_card_a9a185a282e09002e0468fa9e58686339}{add\+Cards\+To\+Pile}} (List$<$ \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} $>$ pile)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final String\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_uno_game_1_1_wild_card_a867ed6625f5f6df7141e80e36d4bb54e}{TYPES}} = \{\char`\"{}Wild\char`\"{}, \char`\"{}Wild\+Draw\+Four\char`\"{}\}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_uno_game_1_1_wild_card_a2d348d224ed6799995335686057169a1}{COUNT\+\_\+\+OF\+\_\+\+CARDS}} = \{4, 4\}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Wild card and Wild Draw Four card, inherited from \mbox{\hyperlink{class_uno_game_1_1_card}{Card}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_ad14413c3d333c323df4aaef34c0b6860}\label{class_uno_game_1_1_wild_card_ad14413c3d333c323df4aaef34c0b6860}} 
+\index{UnoGame.WildCard@{UnoGame.WildCard}!WildCard@{WildCard}}
+\index{WildCard@{WildCard}!UnoGame.WildCard@{UnoGame.WildCard}}
+\doxysubsubsection{\texorpdfstring{WildCard()}{WildCard()}}
+{\footnotesize\ttfamily Uno\+Game.\+Wild\+Card.\+Wild\+Card (\begin{DoxyParamCaption}\item[{String}]{\+\_\+type }\end{DoxyParamCaption})}
+
+Construct a Wild card with given type. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_a9a185a282e09002e0468fa9e58686339}\label{class_uno_game_1_1_wild_card_a9a185a282e09002e0468fa9e58686339}} 
+\index{UnoGame.WildCard@{UnoGame.WildCard}!addCardsToPile@{addCardsToPile}}
+\index{addCardsToPile@{addCardsToPile}!UnoGame.WildCard@{UnoGame.WildCard}}
+\doxysubsubsection{\texorpdfstring{addCardsToPile()}{addCardsToPile()}}
+{\footnotesize\ttfamily static void Uno\+Game.\+Wild\+Card.\+add\+Cards\+To\+Pile (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_uno_game_1_1_card}{Card}} $>$}]{pile }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Initialize all the Wild cards and add it to the given list.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pile} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_adcf775c9e863786920c0c04158ba977f}\label{class_uno_game_1_1_wild_card_adcf775c9e863786920c0c04158ba977f}} 
+\index{UnoGame.WildCard@{UnoGame.WildCard}!isMatchedWith@{isMatchedWith}}
+\index{isMatchedWith@{isMatchedWith}!UnoGame.WildCard@{UnoGame.WildCard}}
+\doxysubsubsection{\texorpdfstring{isMatchedWith()}{isMatchedWith()}}
+{\footnotesize\ttfamily boolean Uno\+Game.\+Wild\+Card.\+is\+Matched\+With (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_uno_game_1_1_card}{Card}}}]{other }\end{DoxyParamCaption})}
+
+Always return false because Wild cards cannot match with any cards. 
+
+Reimplemented from \mbox{\hyperlink{class_uno_game_1_1_card}{Uno\+Game.\+Card}}.
+
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_acfe36b3a0e3f29a8b1a5ab6d8c4e061b}\label{class_uno_game_1_1_wild_card_acfe36b3a0e3f29a8b1a5ab6d8c4e061b}} 
+\index{UnoGame.WildCard@{UnoGame.WildCard}!switchColor@{switchColor}}
+\index{switchColor@{switchColor}!UnoGame.WildCard@{UnoGame.WildCard}}
+\doxysubsubsection{\texorpdfstring{switchColor()}{switchColor()}}
+{\footnotesize\ttfamily void Uno\+Game.\+Wild\+Card.\+switch\+Color (\begin{DoxyParamCaption}\item[{String}]{new\+Color }\end{DoxyParamCaption})}
+
+Wild cards don\textquotesingle{}t have colors. 
+
+Reimplemented from \mbox{\hyperlink{class_uno_game_1_1_card}{Uno\+Game.\+Card}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_uno_game_1_1_wild_card_a2d348d224ed6799995335686057169a1}\label{class_uno_game_1_1_wild_card_a2d348d224ed6799995335686057169a1}} 
+\index{UnoGame.WildCard@{UnoGame.WildCard}!COUNT\_OF\_CARDS@{COUNT\_OF\_CARDS}}
+\index{COUNT\_OF\_CARDS@{COUNT\_OF\_CARDS}!UnoGame.WildCard@{UnoGame.WildCard}}
+\doxysubsubsection{\texorpdfstring{COUNT\_OF\_CARDS}{COUNT\_OF\_CARDS}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]} Uno\+Game.\+Wild\+Card.\+COUNT\+\_\+\+OF\+\_\+\+CARDS = \{4, 4\}\hspace{0.3cm}{\ttfamily [static]}}
+
+Holds number of cards for each type. \mbox{\Hypertarget{class_uno_game_1_1_wild_card_a867ed6625f5f6df7141e80e36d4bb54e}\label{class_uno_game_1_1_wild_card_a867ed6625f5f6df7141e80e36d4bb54e}} 
+\index{UnoGame.WildCard@{UnoGame.WildCard}!TYPES@{TYPES}}
+\index{TYPES@{TYPES}!UnoGame.WildCard@{UnoGame.WildCard}}
+\doxysubsubsection{\texorpdfstring{TYPES}{TYPES}}
+{\footnotesize\ttfamily final String \mbox{[}$\,$\mbox{]} Uno\+Game.\+Wild\+Card.\+TYPES = \{\char`\"{}Wild\char`\"{}, \char`\"{}Wild\+Draw\+Four\char`\"{}\}\hspace{0.3cm}{\ttfamily [static]}}
+
+Holds all the types of wild cards. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Uno\+Game/src/\+Uno\+Game/Wild\+Card.\+java\end{DoxyCompactItemize}
